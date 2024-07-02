@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div, header, main, footer, section{border: 0.5px solid black;}
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header{
+  height: 60px;
+  display: flex;
+}
+.header-1>div{height: 100%;}
+header>div:first-child{
+height: 70%;
+}
+header>div:last-child{
+  height: 30%;
+  }
